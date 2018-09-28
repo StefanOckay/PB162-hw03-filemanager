@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/impl/Exceptions/InvalidJobFileException.java">
+<error line="10" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.java">
+</file>
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.java">
+</file>
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/impl/Main.java">
+<error line="10" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java">
+<error line="19" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.java">
+<error line="17" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java">
+<error line="16" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/Operation.java">
+</file>
+<file name="/home/stefan/skola/java/PB162-hw03-filemanager/src/main/java/cz/muni/fi/pb162/hw03/FileManager.java">
+</file>
+</checkstyle>
