@@ -26,18 +26,23 @@ public class CopyOp implements Operation {
      * @param file to start from
      */
     private void copyRecursively(File file) {
-        String destName;
         File[] files = file.listFiles();
         if (files == null) {
             return;
         }
+        String destPath;
+        File destFile;
         for (File f : files) {
             if (f.isDirectory()) {
                 copyRecursively(f);
             } else if (FilesHandler.hasExtension(f, extension)) {
-                destName = dest + File.separator + f.getName();
+                destPath = dest + File.separator + f.getName();
+                destFile = new File(destPath);
                 try {
-                    Files.createFile(Paths.get(destName));
+                    destFile.getParentFile().mkdirs();
+                    if (!destFile.createNewFile()) {
+                        System.err.println("The file already exists: " + destFile.getAbsolutePath());
+                    }
                 } catch (IOException ex) {
                     System.err.println(ex.getMessage());
                 }

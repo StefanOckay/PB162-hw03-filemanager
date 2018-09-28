@@ -8,9 +8,10 @@ import cz.muni.fi.pb162.hw03.FileManager;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        FileManager fm = new FileManagerImpl();
-        fm.executeJob("/my_test/jobfile.cmd", "/my_test/logFile.txt");
         /**
+        FileManager fm = new FileManagerImpl();
+        fm.executeJob("my_test/jobfile.cmd", "my_test/logFile.txt");
+         **/
         if (args.length != 2) {
             System.err.println("Wrong number of arguments.");
             return;
@@ -22,7 +23,6 @@ public class Main {
             System.err.println(ex.getMessage());
             return;
         }
-        System.out.println("Success. " + args[0]);
-         **/
+        System.out.println(args[1]);
     }
 }

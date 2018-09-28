@@ -18,7 +18,7 @@ public class FilesHandler {
         int lenExt = extension.length();
         int lenFile = fileName.length();
         for (int i = 0; i < lenExt; i++) {
-            if (extension.charAt(lenExt - 1 - i)!= fileName.charAt(lenFile - 1 - i)) {
+            if (extension.charAt(lenExt - 1 - i) != fileName.charAt(lenFile - 1 - i)) {
                 return false;
             }
         }

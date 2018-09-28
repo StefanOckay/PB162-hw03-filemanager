@@ -7,13 +7,13 @@ public class InvalidJobFileException extends Exception {
     private String message;
     private Throwable cause = null;
 
-    public InvalidJobFileException(String message) {
+    public InvalidJobFileException(String message, Throwable cause) {
+        this.cause = cause;
         this.message = message;
     }
 
-    public InvalidJobFileException(String message, Throwable cause) {
+    public InvalidJobFileException(String message) {
         this.message = message;
-        this.cause = cause;
     }
 
     @Override

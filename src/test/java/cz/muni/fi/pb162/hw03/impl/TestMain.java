@@ -40,7 +40,7 @@ public class TestMain {
     public final ExpectedSystemExit exit = ExpectedSystemExit.none();
 
     @Test
-    public void exitOneWithoutParams() {
+    public void exitOneWithoutParams() throws Exception {
 
         exit.expectSystemExitWithStatus(1);
         exit.checkAssertionAfterwards(() -> {
@@ -55,7 +55,7 @@ public class TestMain {
     }
 
     @Test
-    public void testJob1() throws IOException {
+    public void testJob1()  throws Exception {
         // prepare test data for job1
         TestSupport testSupport = TestSupport.forJob("job1");
         testSupport.init();
@@ -77,7 +77,7 @@ public class TestMain {
     }
 
     @Test
-    public void testIncorrectParams() {
+    public void testIncorrectParams() throws Exception {
         // main should exit with 1
         exit.expectSystemExitWithStatus(1);
         // check std out for too long output (suggesting stacktrace was printed)

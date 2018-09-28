@@ -1,2 +1,2 @@
-root;/home/stefan/skola/java/PB162-hw03-filemanager/my_test
-CP;txt;/home/stefan/skola/java/PB162-hw03-filemanager/my_test/b
+root;my_test
+MV;xml;my_test

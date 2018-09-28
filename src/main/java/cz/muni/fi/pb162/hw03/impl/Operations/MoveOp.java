@@ -24,17 +24,20 @@ public class MoveOp implements Operation {
      * @param file to start from
      */
     private void moveRecursively(File file) {
-        String destName;
         File[] files = file.listFiles();
         if (files == null) {
             return;
         }
+        String destPath;
+        File destFile;
         for (File f : files) {
             if (f.isDirectory()) {
                 moveRecursively(f);
             } else if (FilesHandler.hasExtension(f, extension)) {
-                destName = dest + File.separator + f.getName();
-                if (!f.renameTo(new File(destName))) {
+                destPath = dest + File.separator + f.getName();
+                destFile = new File(destPath);
+                destFile.getParentFile().mkdirs();
+                if (!f.renameTo(destFile)) {
                     System.err.println("Moving " + f.getAbsolutePath() + " has failed.");
                 }
             }
