@@ -5,6 +5,7 @@ import cz.muni.fi.pb162.hw03.impl.Utils.FilesHandler;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.file.Path;
 
 /**
@@ -12,8 +13,10 @@ import java.nio.file.Path;
  */
 public class DeleteOp implements Operation {
     private String extension;
+    private PrintWriter pwr;
 
-    public DeleteOp(String extension) {
+    public DeleteOp(String extension, PrintWriter pwr) {
+        this.pwr = pwr;
         this.extension = extension;
     }
 
@@ -32,6 +35,10 @@ public class DeleteOp implements Operation {
             } else if (FilesHandler.hasExtension(f, extension)) {
                 if (!f.delete()){
                     System.err.println("Couldn't delete: " + f.getAbsolutePath());
+                } else {
+                    pwr.write("DEL;");
+                    pwr.write(f.getAbsolutePath());
+                    pwr.write("\n");
                 }
             }
         }

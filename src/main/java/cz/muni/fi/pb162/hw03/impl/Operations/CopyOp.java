@@ -32,12 +32,14 @@ public class CopyOp implements Operation {
         }
         String destPath;
         File destFile;
+        int fileNumber;
         for (File f : files) {
             if (f.isDirectory()) {
                 copyRecursively(f);
             } else if (FilesHandler.hasExtension(f, extension)) {
                 destPath = dest + File.separator + f.getName();
                 destFile = new File(destPath);
+                fileNumber = FilesHandler.getNextThreeDigitFileNumber(destFile, files, extension);
                 try {
                     destFile.getParentFile().mkdirs();
                     if (!destFile.createNewFile()) {

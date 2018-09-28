@@ -50,20 +50,19 @@ public class FileManagerImpl implements FileManager {
                     lineFields[2] = (new File(lineFields[2])).getAbsolutePath();
                     op = new MoveOp(lineFields[1], lineFields[2]);
                 } else if (lineFields[0].equals("DEL")) {
-                    op = new DeleteOp(lineFields[1]);
+                    op = new DeleteOp(lineFields[1], pwr);
                 } else if (lineFields.length != 1 || (!lineFields[0].equals("") && lineFields[0].charAt(0) != '#')) {
                     throw new InvalidJobFileException("A line can be empty, with comment or with a command.");
                 }
             } catch (Exception ex) {
                 throw new InvalidJobFileException(ex.getMessage(), ex);
             }
-            if (op != null) {
-                op.execute(src.toPath().toAbsolutePath());
+            op.execute(src.toPath().toAbsolutePath());
+            if (op instanceof MoveOp || op instanceof CopyOp) {
                 pwr.write(lineFields[0]);
                 pwr.write(";" + lineFields[1]);
-                if (lineFields.length == 3) {
-                    pwr.write(";" + lineFields[2]);
-                }
+                pwr.write(";" + lineFields[2]);
+                pwr.write("\n");
             }
         }
         br.close();

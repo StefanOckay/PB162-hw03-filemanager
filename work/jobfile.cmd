@@ -1,2 +1,2 @@
-root;C:\Users\Stefan\Desktop\projects\PB162-hw03-filemanager\work\src\mv_cmd
-MV;odt;C:\Users\Stefan\Desktop\projects\PB162-hw03-filemanager\work\dest\docs
+root;/home/stefan/skola/Java/PB162-hw03-filemanager/work/src/del_cmd
+DEL;odt
