@@ -7,6 +7,8 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 
+import static cz.muni.fi.pb162.hw03.impl.Utils.FilesHandler.getNextFreeFileName;
+
 /**
  * @author Stefan Ockay
  */
@@ -30,11 +32,12 @@ public class MoveOp implements Operation {
         }
         String destPath;
         File destFile;
+        File[] destDirFiles = new File(dest).listFiles();
         for (File f : files) {
             if (f.isDirectory()) {
                 moveRecursively(f);
             } else if (FilesHandler.hasExtension(f, extension)) {
-                destPath = dest + File.separator + f.getName();
+                destPath = dest + File.separator + getNextFreeFileName(f, destDirFiles, extension);
                 destFile = new File(destPath);
                 destFile.getParentFile().mkdirs();
                 if (!f.renameTo(destFile)) {

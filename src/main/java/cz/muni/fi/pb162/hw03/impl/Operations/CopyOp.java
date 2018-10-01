@@ -9,6 +9,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+import static cz.muni.fi.pb162.hw03.impl.Utils.FilesHandler.getNextFreeFileName;
+
 /**
  * @author Stefan Ockay
  */
@@ -32,19 +34,16 @@ public class CopyOp implements Operation {
         }
         String destPath;
         File destFile;
-        int fileNumber;
+        File[] destDirFiles = new File(dest).listFiles();
         for (File f : files) {
             if (f.isDirectory()) {
                 copyRecursively(f);
             } else if (FilesHandler.hasExtension(f, extension)) {
-                destPath = dest + File.separator + f.getName();
+                destPath = dest + File.separator + getNextFreeFileName(f, destDirFiles, extension);
                 destFile = new File(destPath);
-                fileNumber = FilesHandler.getNextThreeDigitFileNumber(destFile, files, extension);
                 try {
                     destFile.getParentFile().mkdirs();
-                    if (!destFile.createNewFile()) {
-                        System.err.println("The file already exists: " + destFile.getAbsolutePath());
-                    }
+                    destFile.createNewFile();
                 } catch (IOException ex) {
                     System.err.println(ex.getMessage());
                 }

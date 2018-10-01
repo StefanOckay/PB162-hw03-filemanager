@@ -12,8 +12,6 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 /**
  * @author Stefan Ockay
@@ -21,7 +19,8 @@ import java.nio.file.Paths;
 public class FileManagerImpl implements FileManager {
 
     @Override
-    public void executeJob(String jobPath, String logFilePath) throws Exception {
+    public void executeJob(String jobPath, String logFilePath)
+            throws InvalidJobFileException, IOException, NullPointerException {
         File jobFile = new File(jobPath);
         if (!jobFile.exists()) {
             throw new IOException("The job file doesn't exist.");
@@ -41,6 +40,9 @@ public class FileManagerImpl implements FileManager {
         File src = new File(lineFields[1]);
         Operation op = null;
         while ((line = br.readLine()) != null) {
+            if (line.isEmpty() || line.charAt(0) == '#') {
+                continue;
+            }
             lineFields = line.split(";");
             try {
                 if (lineFields[0].equals("CP")) {
@@ -51,7 +53,7 @@ public class FileManagerImpl implements FileManager {
                     op = new MoveOp(lineFields[1], lineFields[2]);
                 } else if (lineFields[0].equals("DEL")) {
                     op = new DeleteOp(lineFields[1], pwr);
-                } else if (lineFields.length != 1 || (!lineFields[0].equals("") && lineFields[0].charAt(0) != '#')) {
+                } else  {
                     throw new InvalidJobFileException("A line can be empty, with comment or with a command.");
                 }
             } catch (Exception ex) {

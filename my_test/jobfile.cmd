@@ -1,2 +1,4 @@
-root;my_test
-MV;xml;my_test
+root;my_test/testFiles
+
+#ahoj
+CP;xml;my_test/destFolder/here

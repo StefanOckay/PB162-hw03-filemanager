@@ -4,17 +4,30 @@
     <list default="true" id="258ff714-915b-4bb4-8e8f-62d68639d3f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mv_cmd.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/del_cmd.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/a/txt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/jobfile.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/jobfile.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/dest/docs/document.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/impl/CopyCollisionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/impl/CopyCollisionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/impl/Job1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/impl/Job1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/impl/SimpleDeleteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/impl/SimpleDeleteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/impl/WrongArgumentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/impl/WrongArgumentsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/support/TestSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/support/TestSupport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/support/UnixExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/support/UnixExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/support/WindowsExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cz/muni/fi/pb162/hw03/support/WindowsExecutor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/jobfile.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/work/jobfile.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/del_cmd/should_stay.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/del_cmd/subfolder/should_stay.doc" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,32 +40,34 @@
     <session id="-618487797">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="28" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3171" />
+          <entry key="java" value="6698" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3171" />
+          <entry key="JAVA" value="6698" />
         </counts>
       </usages-collector>
     </session>
@@ -119,19 +134,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/CopyCounterTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+            <state relative-caret-position="45">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,10 +146,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,44 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="40" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/SimpleDeleteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,11 +178,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+            <state relative-caret-position="60">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/TestMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/CopyCounterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/CopyCollisionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -211,8 +232,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/Job1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="51" column="84" selection-start-line="51" selection-start-column="84" selection-end-line="51" selection-end-column="84" />
+            <state relative-caret-position="135">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -236,21 +257,33 @@
         <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Exceptions/InvalidJobFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Exceptions/InvalidJobFileException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.java" />
         <option value="$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/SimpleDeleteTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/CopyCollisionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hw03-filemanager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="49" />
     <option name="y" value="15" />
-    <option name="width" value="1204" />
-    <option name="height" value="759" />
+    <option name="width" value="1194" />
+    <option name="height" value="758" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -258,7 +291,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -301,6 +333,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hw03" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw03-filemanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PB162-hw03-filemanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hw03" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hw03-filemanager" type="b2602c69:ProjectViewProjectNode" />
@@ -355,25 +397,18 @@
             <path>
               <item name="hw03-filemanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="PB162-hw03-filemanager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw03" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw03-filemanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PB162-hw03-filemanager" type="462c0819:PsiDirectoryNode" />
               <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538163495093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538417501098" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -389,21 +424,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleDeleteTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.muni.fi.pb162.hw03.impl.Main" />
-      <module name="hw03-filemanager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.muni.fi.pb162.hw03.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestMain">
+    <configuration name="Job1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hw03-filemanager" />
       <extension name="coverage">
         <pattern>
@@ -412,7 +434,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cz.muni.fi.pb162.hw03.impl" />
-      <option name="MAIN_CLASS_NAME" value="cz.muni.fi.pb162.hw03.impl.CopyCounterTest" />
+      <option name="MAIN_CLASS_NAME" value="cz.muni.fi.pb162.hw03.impl.Job1Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -427,6 +449,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="cz.muni.fi.pb162.hw03.impl" />
       <option name="MAIN_CLASS_NAME" value="cz.muni.fi.pb162.hw03.impl.SimpleDeleteTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleMoveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw03-filemanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.muni.fi.pb162.hw03.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cz.muni.fi.pb162.hw03.impl" />
+      <option name="MAIN_CLASS_NAME" value="cz.muni.fi.pb162.hw03.impl.SimpleMoveTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -460,19 +496,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WrongArgumentsTest" />
-      <item itemvalue="JUnit.CopyCounterTest" />
-      <item itemvalue="JUnit.TestMain" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.SimpleDeleteTest" />
+      <item itemvalue="JUnit.SimpleMoveTest" />
+      <item itemvalue="JUnit.WrongArgumentsTest" />
+      <item itemvalue="JUnit.TestMain" />
+      <item itemvalue="JUnit.Job1Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleDeleteTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestMain" />
-        <item itemvalue="JUnit.CopyCounterTest" />
+        <item itemvalue="JUnit.Job1Test" />
         <item itemvalue="JUnit.WrongArgumentsTest" />
+        <item itemvalue="JUnit.SimpleMoveTest" />
+        <item itemvalue="JUnit.SimpleDeleteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -490,34 +526,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleDeleteTest - 2018.09.28 at 20h 09m 07s.xml">
-      <configuration name="SimpleDeleteTest" configurationId="JUnit" />
+    <history-entry file="Job1Test - 2018.10.01 at 20h 08m 33s.xml">
+      <configuration name="Job1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleDeleteTest - 2018.09.28 at 20h 10m 38s.xml">
-      <configuration name="SimpleDeleteTest" configurationId="JUnit" />
+    <history-entry file="Job1Test - 2018.10.01 at 20h 08m 56s.xml">
+      <configuration name="Job1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleDeleteTest - 2018.09.28 at 20h 16m 37s.xml">
-      <configuration name="SimpleDeleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleDeleteTest - 2018.09.28 at 20h 17m 11s.xml">
-      <configuration name="SimpleDeleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleMoveTest - 2018.09.28 at 20h 17m 25s.xml">
-      <configuration name="SimpleMoveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleCopyTest - 2018.09.28 at 20h 17m 29s.xml">
-      <configuration name="SimpleCopyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WrongArgumentsTest - 2018.09.28 at 20h 17m 32s.xml">
-      <configuration name="WrongArgumentsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CopyCounterTest - 2018.09.28 at 20h 17m 37s.xml">
+    <history-entry file="CopyCounterTest - 2018.10.01 at 20h 09m 03s.xml">
       <configuration name="CopyCounterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain - 2018.09.28 at 20h 17m 41s.xml">
+    <history-entry file="SimpleCopyTest - 2018.10.01 at 20h 09m 11s.xml">
+      <configuration name="SimpleCopyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleDeleteTest - 2018.10.01 at 20h 09m 18s.xml">
+      <configuration name="SimpleDeleteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMoveTest - 2018.10.01 at 20h 09m 25s.xml">
+      <configuration name="SimpleMoveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WrongArgumentsTest - 2018.10.01 at 20h 09m 33s.xml">
+      <configuration name="WrongArgumentsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain - 2018.10.01 at 20h 09m 41s.xml">
       <configuration name="TestMain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMain - 2018.09.28 at 20h 18m 28s.xml">
+    <history-entry file="Job1Test - 2018.10.01 at 20h 10m 10s.xml">
+      <configuration name="Job1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMain - 2018.10.01 at 20h 10m 17s.xml">
       <configuration name="TestMain" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -531,10 +567,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1373" height="875" extended-state="6" />
-    <editor active="true" />
+    <frame x="49" y="15" width="1194" height="758" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2690279" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2855903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -543,15 +578,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34858045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32988167" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.35205993" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32988167" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.35059172" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -559,7 +594,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2690279" />
@@ -598,29 +633,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/DeleteCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/CopyCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/OperationImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/CopyCollisionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk/jre/lib/rt.jar!/sun/nio/fs/UnixException.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/SimpleMoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Exceptions/InvalidJobFileException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,41 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/FileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/CopyCounterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/Job1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="51" column="84" selection-start-line="51" selection-start-column="84" selection-end-line="51" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -676,20 +662,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Exceptions/InvalidJobFileException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/CopyCollisionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/Job1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/MoveOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -698,32 +729,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/FileManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        <state relative-caret-position="75">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Utils/FilesHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="60">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/DeleteOp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/muni/fi/pb162/hw03/impl/Operations/CopyOp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cz/muni/fi/pb162/hw03/impl/CopyCounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        <state relative-caret-position="285">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
