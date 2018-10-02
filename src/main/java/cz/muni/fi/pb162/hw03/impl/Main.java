@@ -35,7 +35,6 @@ public class Main {
         } catch (Exception ex) {
             System.exit(1);
         }
-        System.out.println("Success.");
-        System.exit(0);
+        System.out.println(args[1]);
     }
 }

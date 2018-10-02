@@ -1,5 +1,0 @@
-CP;jpg;/home/stefan/skola/java/PB162-hw03-filemanager/work/dest/pictures
-CP;odt;/home/stefan/skola/java/PB162-hw03-filemanager/work/dest/docs
-DEL;/home/stefan/skola/java/PB162-hw03-filemanager/work/src/job1/sub/folder/another/enought/picture.png
-DEL;/home/stefan/skola/java/PB162-hw03-filemanager/work/src/job1/a.png
-MV;gif;/home/stefan/skola/java/PB162-hw03-filemanager/work/dest/pictures

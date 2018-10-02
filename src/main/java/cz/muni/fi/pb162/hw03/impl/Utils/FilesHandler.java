@@ -16,7 +16,7 @@ public class FilesHandler {
      * @param digits number of the characters in the result String
      * @return String number with preceding zeros added
      */
-    public static String addZeros(int number, int digits) {
+    private static String addZeros(int number, int digits) {
         String strNumber = Integer.toString(number);
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < digits - strNumber.length(); i++) {
@@ -32,7 +32,7 @@ public class FilesHandler {
      * @param extension of the files
      * @return the least free file number of the files with specified extension
      */
-    public static int getNextFileNumber(File[] files, File file, String extension) {
+    private static int getNextFileNumber(File[] files, File file, String extension) {
         ArrayList<File> orderedFiles = getOrderedFiles(files, file.getName(), extension);
         int nextNumber = 0;
         int fNumber;
@@ -54,7 +54,7 @@ public class FilesHandler {
      * @param fileName should be substring of the needed files
      * @return ordered ArrayList of the files with extension and fileName as a substring
      */
-    public static ArrayList<File> getOrderedFiles(File[] files, String fileName, String extension) {
+    private static ArrayList<File> getOrderedFiles(File[] files, String fileName, String extension) {
         if (files == null) {
             return new ArrayList<>();
         }
@@ -84,7 +84,7 @@ public class FilesHandler {
      * @param extension of the file
      * @return int number of the file
      */
-    public static int getFileNumber(File file, File baseFile, String extension) {
+    private static int getFileNumber(File file, File baseFile, String extension) {
         String fileName = file.getName();
         String baseFileName = baseFile.getName();
         String fileNameNoExtension = fileName.substring(0, fileName.length() - extension.length() - 1);

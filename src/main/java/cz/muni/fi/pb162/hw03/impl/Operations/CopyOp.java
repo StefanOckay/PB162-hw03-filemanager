@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 
 import static cz.muni.fi.pb162.hw03.impl.Utils.FilesHandler.getNextFreeFileName;
 
@@ -43,7 +44,7 @@ public class CopyOp implements Operation {
                 destFile = new File(destPath);
                 try {
                     destFile.getParentFile().mkdirs();
-                    destFile.createNewFile();
+                    Files.copy(f.toPath(), destFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
                 } catch (IOException ex) {
                     System.err.println(ex.getMessage());
                 }
