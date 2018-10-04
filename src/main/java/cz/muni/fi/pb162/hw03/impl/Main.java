@@ -27,6 +27,7 @@ public class Main {
             return;
         }
         if (args.length != 2) {
+            System.out.println("usage: java -jar hw03-filemanager-1.0-SNAPSHOT.jar /path/to/job_file /path/to/log_file");
             System.exit(1);
         }
         FileManager fm = new FileManagerImpl();
