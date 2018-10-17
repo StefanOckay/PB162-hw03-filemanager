@@ -27,10 +27,10 @@ public class FilesHandler {
     }
 
     /**
-     * gets the least free file number from the ordered files(by name) with specified extension
+     * gets the lowest free file number from the ordered files(by name) with specified extension
      * @param files to be examined
      * @param extension of the files
-     * @return the least free file number of the files with specified extension
+     * @return the lowest free file number of the files with specified extension
      */
     private static int getNextFileNumber(File[] files, File file, String extension) {
         ArrayList<File> orderedFiles = getOrderedFiles(files, file.getName(), extension);
@@ -50,7 +50,7 @@ public class FilesHandler {
     /**
      * gets ordered(by name) ArrayList of the files array with specified extension and file name
      * @param files array to be ordered
-     * @param extension of the files from the array to be oredered
+     * @param extension of the files from the array to be ordered
      * @param fileName should be substring of the needed files
      * @return ordered ArrayList of the files with extension and fileName as a substring
      */
@@ -79,10 +79,11 @@ public class FilesHandler {
     }
 
     /**
-     * gets up to three digit file number, from xxx(036 for instance) to int
+     * gets file number of a file with name in format 'name_abc'
      * @param file to be examined
-     * @param extension of the file
-     * @return int number of the file
+     * @param baseFile its name dictates the basis of the file name without number
+     * @param extension of the files
+     * @return file number of the file
      */
     private static int getFileNumber(File file, File baseFile, String extension) {
         String fileName = file.getName();
@@ -100,6 +101,13 @@ public class FilesHandler {
         }
     }
 
+    /**
+     * gets the new name for the file with number specifier in case of name collisions
+     * @param file to be examined
+     * @param files colliding with the file
+     * @param extension of the file and files examined
+     * @return new non-colliding file name for the file
+     */
     public static String getNextFreeFileName(File file, File[] files, String extension) {
         int nextFreeFileNumber = getNextFileNumber(files, file, extension);
         if (nextFreeFileNumber == 0) {
@@ -113,7 +121,7 @@ public class FilesHandler {
      *
      * @param file to be checked
      * @param extension of a file
-     * @return true if file has specified extension, false otherwise
+     * @return true if file has the specified extension, false otherwise
      */
     public static boolean hasExtension(File file, String extension) {
         String fileName = file.getName();
